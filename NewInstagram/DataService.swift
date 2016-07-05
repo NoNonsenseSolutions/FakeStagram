@@ -12,7 +12,7 @@ import FirebaseDatabase
 class DataService{
   static let dataService = DataService()
   // Added comment for github demo
-//  private var _
+  // My hand is too itchy, i should never edit code here
   private var _rootRef = FIRDatabase.database().reference()
   private var _currentUserRef = FIRDatabase.database().reference().child("users").child(User.currentUserUid()!)
   private var _imagesRef = FIRDatabase.database().reference().child("images")
